@@ -26,12 +26,12 @@ void calculate(){
             j++;
         }
         amt += p[i].amountSpent;
-        printf("\n\n\n\n %i is the amt ", amt);
+        
         i++;
-        amt = 0;
+
     }
 
-    
+    printf("\n\n\n\n %i is the amt ", amt);
     div = amt/6;
     printf("\n\n\n %f id the div \n\n\n", div);
     i = 0;
