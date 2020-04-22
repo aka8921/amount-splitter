@@ -1,18 +1,26 @@
 #include <stdlib.h>
-
 #include <stdio.h>
 #include <string.h>
+
+
+// __ TODO__
+// - six names and 5 activitiies
+//  - 
 
 // person struct
 struct person
 {
     char name[50];
     int id;
-    int expenses[6];
-} p[5];
+    int activity[5];//?
+} p[6];//6 persons initiated
+
+
+
+
 
 // person count scoped globally
-int p_count = 0;
+int p_count = 0;//?
 
 void person()
 {
